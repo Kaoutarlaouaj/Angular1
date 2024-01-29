@@ -1,15 +1,13 @@
 (function () {
-'use strict';
+    'use strict';
 
+    angular.module('myFirstApp', [])
 
-
-angular.module('myFirstApp', [])
-
-.controller('MyFirstController',function ($scope) {
-    $scope.name = "Kaoutar";
-    $scope.sayHello = function () {
-        return "Hello coursera";
-    };
-});
+    .controller('MyFirstController', function ($scope) {
+        $scope.name = "Kaoutar";
+        $scope.sayHello = function () {
+            return "Hello coursera";
+        };
+    });
 
 })();
